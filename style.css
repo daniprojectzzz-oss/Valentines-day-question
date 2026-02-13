@@ -71,12 +71,12 @@ body {
 }
 
 h1 {
-    font-size: 30px;
+    font-size: clamp(18px, 4vw, 30px);
     margin: 0;
 }
 
 p {
-    font-size: 40px;
+    font-size: clamp(16px, 3vw, 24px);
 }
 
 /* Cat */
